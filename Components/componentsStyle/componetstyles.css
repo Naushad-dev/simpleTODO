@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #AFD3E2;
+}
+.task-conatiner{
+    
+    position: absolute;
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+   
+}
+.display-tasks{
+overflow-x: hidden;
+overflow-y:scroll ;
+height:30rem;
+margin-bottom: 20px;
+
+
+  
+}
+.display-tasks::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+.task-card{
+    /* border: 1px solid green; */
+    background-color: #146C94;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    line-height: 0.8rem;
+    box-shadow: rgba(0.5, 0.5, 0.4, 0.4) 0px 5px 15px;
+    padding: 20px;
+}
+.button-container{
+    margin-top: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-container input{
+    height: 1.5rem;
+    margin-bottom: 15px;
+    width: 80%;
+    
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.button-container button{
+    height: 2.5rem;
+    width: 50%;
+    padding: 10px;
+}
+.header-comp{
+   text-align: center;
+   margin-bottom: 25px;
+ 
+
+}
+.del-btn{
+    background: transparent;
+    border: none;
+    height: 10px;
+    font-size: 25px;
+}
+
+
+
